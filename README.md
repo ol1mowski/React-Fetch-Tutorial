@@ -28,23 +28,15 @@ cd ..
 
 ### 3. Uruchamianie projektu
 
-**Uruchamianie Frontendu i Backendu jednocześnie:**
+**Uruchamianie Frontendu**
 ```bash
 npm run dev
-```
-
-**Alternatywne uruchamianie oddzielne:**
-
-Frontend:
-```bash
-# W głównym katalogu
-npm start
 ```
 
 Backend:
 ```bash
 cd backend
-npm start
+node server.js
 ```
 
 ## Struktura projektu
