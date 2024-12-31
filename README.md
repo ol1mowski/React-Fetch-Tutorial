@@ -1,67 +1,84 @@
-Projekt React + Express
+# Projekt React + Express
 
 Witaj w moim projekcie React + Express! Ten projekt składa się z aplikacji frontendowej zbudowanej w React oraz backendu w Express. Idealny dla osób, które chcą zobaczyć pełny stos technologiczny w akcji.
 
-Instalacja i konfiguracja
+## Instalacja i konfiguracja
 
-1. Klonowanie repozytorium
+### 1. Klonowanie repozytorium
 
-Najpierw sklonuj repozytorium na swój komputer:
+```bash
+git clone https://github.com/ol1mowski/React-Fetch-Tutorial.git
+cd React-Fetch-Tutorial
+```
 
-git clone https://github.com/twoje-uzytkownik/twoj-projekt.git
-cd twoj-projekt
+### 2. Instalacja zależności
 
-2. Instalacja zależności
-
-Frontend (React):
-
-Przejdź do głównego katalogu projektu i zainstaluj zależności:
-
+**Frontend (React):**
+```bash
+# W głównym katalogu projektu
 npm install
+```
 
-Backend (Express):
-
-Przejdź do folderu backend i zainstaluj zależności:
-
+**Backend (Express):**
+```bash
 cd backend
 npm install
 cd ..
+```
 
-3. Uruchamianie projektu
+### 3. Uruchamianie projektu
 
-Uruchamianie Frontendu i Backend jednocześnie:
-
-W głównym katalogu projektu uruchom:
-
+**Uruchamianie Frontendu i Backendu jednocześnie:**
+```bash
 npm run dev
+```
 
-Alternatywne uruchamianie oddzielne:
+**Alternatywne uruchamianie oddzielne:**
 
-Frontend: W głównym katalogu projektu:
-
+Frontend:
+```bash
+# W głównym katalogu
 npm start
+```
 
-Backend: W katalogu backend:
-
+Backend:
+```bash
 cd backend
 npm start
+```
 
-Struktura projektu
+## Struktura projektu
 
-├── backend        # Backend aplikacji (Express)
-├── src            # Frontend aplikacji (React)
-├── package.json   # Konfiguracja projektu
-└── README.md      # Dokumentacja projektu
+```
+├── backend/          # Backend aplikacji (Express)
+│   ├── database.js   # Konfiguracja bazy danych
+│   ├── server.js     # Główny plik serwera
+│   └── users.db      # Baza danych
+├── src/              # Frontend aplikacji (React)
+├── public/           # Pliki statyczne
+├── package.json      # Konfiguracja projektu
+└── README.md         # Dokumentacja projektu
+```
 
-Wymagania
+## Technologie
 
-Node.js w wersji 14 lub nowszej
+- Frontend:
+  - React
+  - TypeScript
+  - Vite
+  - PostCSS
+- Backend:
+  - Express.js
+  - SQLite
 
-NPM lub Yarn
+## Wymagania systemowe
 
-Kontakt
+- Node.js (wersja 14 lub nowsza)
+- NPM lub Yarn
+- Przeglądarka internetowa wspierająca współczesne standardy
+
+## Kontakt
 
 Masz pytania lub sugestie? Napisz w komentarzu pod filmem lub stwórz issue na GitHubie!
 
 Dzięki za wsparcie! 😊
-
